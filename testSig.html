@@ -27,6 +27,8 @@
 		top: 2;
 		/*display: inline-block;*/
 		height: 80px;
+		padding: 8px;
+		border-right: solid 1px #93928B;
 	}
 
 	#linebreak {
@@ -38,22 +40,14 @@
     	width: 1px;
 		background-color: #93928B;
 	}
-	.info {
+	.information {
 		margin: 0px;
+		padding: 1.5px 0px;
+	}
+	#info {
 		position: absolute;
-		left: 210px;
-	}
-	#name {
-		top: 2px;
-	}
-	#number {
-		top: 22px;
-	}
-	#address {
-		top: 45px;
-	}
-	#link {
-		top: 65px;
+		left: 220px;
+		top: 8px;
 	}
 	#link:link, #link:visited {
 		color: #93928B;
@@ -68,14 +62,13 @@
 
 	<div id="sigBody">
 		<a href="http://www.thevillagedallas.com/" target="_blank"><img id="logo" src="./images/villageLogo.svg"></a>
-	
-		<div id="linebreak"></div>
+		<!-- <svg id="linebreak"></svg> -->
 
-		<div>
-			<p class="info" id="name">Caleb Rose|Visual Maestro</p>
-			<p class="info" id="number">o: 214.484.5507|c: 936.225.0949</p>
-			<p class="info" id="address">8749 Southwestern Blvd|Dallas, TX 75206</p>
-			<a class="info" id="link" href="http://www.thevillagedallas.com/" target="_blank">www.thevillagedallas.com</a>
+		<div id="info">
+			<p class="information" id="name">Caleb Rose|Visual Maestro</p>
+			<p class="information" id="number">o: 214.484.5507|c: 936.225.0949</p>
+			<p class="information" id="address">8749 Southwestern Blvd|Dallas, TX 75206</p>
+			<a class="information" id="link" href="http://www.thevillagedallas.com/" target="_blank">www.thevillagedallas.com</a>
 		</div>
 	</div>
 	
